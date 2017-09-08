@@ -450,56 +450,6 @@ function sendTwitchLink($options) {
 	sendMsg($msg);
 }
 
-function sendYoutubeLink($options) {
-	$popout = false;
-	$team = "";
-	$team2 = "";
-	$origiTeam;
-	$origiTeam;
-	
-	foreach($options as $opt) {
-		if ($opt == "p" || $opt == "popout") {
-			$popout = true;
-		}
-		elseif (!$team) {
-			if ($opt == "list") {
-				$team = $opt;
-			}
-			else {
-				$team = getTeam($opt);
-				$origiTeam = $opt;
-			}
-		}
-		else {
-			$team2 = getTeam($opt);
-			$origiTeam2 = $opt;
-		}
-	}
-	
-	if {
-		if ($team == "list") {
-			foreach ($youtubeNames as $key => $value) {
-				$msg .= "$key: $value\n";
-			}
-			$msg = substr($msg,0, -1);
-		} 
-		else { 
-			$youtubeURL = "https://www.youtube.com/";
-			$youtubeName = $youtubeNames[$team];
-			if (!$youtubeName) {
-				$msg = "No youtube name listed for " . $origiTeam;
-			}
-			else {
-				$msg = $youtubeURL . $youtubeName; 
-				if ($popout) {
-					$msg .= "/popout";
-				}
-			}
-		}
-	}
-	sendMsg($msg);
-}
-
 function sendInfo($opt = "all") {
 	global $xmlArr;
 	$importantInfo = $xmlArr["info"];
