@@ -2,18 +2,19 @@
 <all>
 	<config>
 		<baseurl>http://daddyleagues.com/</baseurl>
-		<league>TSL</league>
-		<cmdprefix>?</cmdprefix>
+		<league>shomadden</league>
+		<cmdprefix>!</cmdprefix>
 		<pslimit>5</pslimit>
 		<charlimit>1000</charlimit>
 	</config>
 	<info>
-		<league>The Test League (TTL)</league>
-		<commish>put commish name here</commish>
-		<rules>put rules link here</rules>
-		<owners>put owners link here</owners>
-		<advance>9/3, 5pm Central</advance>
-		<draft>9/3, 5pm Central</draft>
+		<league>SHO</league>
+		<commish>Az, Harry, Tricky, Xray</commish>
+		<rules>https://docs.google.com/document/d/1tlxM-UiXKisjL826wtn1a0BQE0GaqzWAhi1XOpgxhEA/edit?usp=sharing</rules>
+		<owners>http://daddyleagues.com/shomadden/coaches</owners>
+		<trade>https://goo.gl/forms/D2l719JNlV2A8PpB2</trade>
+		<advance>9/9</advance>
+		<draft>TBD</draft>
 		<botdev>https://github.com/kicker10BOG/daddyleagues-groupme-bot</botdev>
 	</info>
 	<img>
@@ -21,9 +22,10 @@
 		<ring>http://vignette3.wikia.nocookie.net/lotr/images/9/9b/TheOneRing.jpg</ring>
 	</img>
 	<youtube>
+		<was>kahme21</was>
 	</youtube>
 	<custom>
-		<hello>hello world!</hello>
+		<strike>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</strike>
 		<tiebreakers>http://www.nfl.com/standings/tiebreakingprocedures</tiebreakers>
 	</custom>
 	<rings>
@@ -35,45 +37,45 @@
 		<nostradamus>8ball</nostradamus>
 	</alias>
 	<twitch>
-		<buf>sometwitchname</buf>
-		<mia/>
-		<ne/>
-		<nyj/>
+		<buf>gregziemski</buf>
+		<mia>bigmike</mia>
+		<ne>niceonthestix181</ne>
+		<nyj>reikodamurkman</nyj>
 		
-		<bal/>
-		<cin/>
-		<cle/>
-		<pit/>
+		<bal>TD</bal>
+		<cin>dagnj</cin>
+		<cle>wfh_xray</cle>
+		<pit>trax631</pit>
 		
-		<hou/>
-		<ind/>
-		<jax/>
-		<ten/>
+		<hou>nick_wizz_</hou>
+		<ind>chophammer</ind>
+		<jax>winstud10</jax>
+		<ten>cfar89</ten>
 		
-		<den/>
-		<kc/>
-		<oak/>
-		<sd/>
+		<den>sw0099</den>
+		<kc>ruckdoeswork</kc>
+		<oak>ssmondo</oak>
+		<lac>actuallyisferg</lac>
 		
-		<dal/>
-		<nyg/>
-		<phi/>
-		<was/>
+		<dal>si5lsjuan</dal>
+		<nyg>zipisahoe</nyg>
+		<phi>yerrrp23</phi>
+		<was>kahme21</was>
 		
-		<chi/>
-		<det/>
-		<gb/>
-		<min/>
+		<chi>bigrama13</chi>
+		<det>general_macarth</det>
+		<gb>harryman33</gb>
+		<min>str8_hate</min>
 		
-		<atl/>
-		<car/>
-		<no/>
-		<tb/>
+		<atl>campy51</atl>
+		<car>straughn99</car>
+		<no>wfhnation</no>
+		<tb>championstatus83</tb>
 		
-		<ari/>
-		<sea/>
-		<sf/>
-		<la/>
+		<ari>azriel1024</ari>
+		<sea>trickynickyspazz</sea>
+		<sf>boody49</sf>
+		<lar>thisscottguy</lar>
 	</twitch>
 	<simscores>
 	</simscores>
@@ -98,6 +100,7 @@
 		<reply>My sources say no</reply>
 		<reply>Outlook not so good</reply>
 		<reply>Very doubtful</reply>
+		<reply>Fuck off</reply>
 	</magic8ball>
 	<emoji>
 		<wary>https://external-dft4-1.xx.fbcdn.net/safe_image.php?d=AQBrs2kQWoDr4JeY&amp;url=http%3A%2F%2Fprofile.ak.fbcdn.net%2Fhprofile-ak-snc4%2F373572_309448622428615_1815569583_q.jpg</wary>
