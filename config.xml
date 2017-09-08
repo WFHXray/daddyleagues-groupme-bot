@@ -22,10 +22,11 @@
 		<ring>http://vignette3.wikia.nocookie.net/lotr/images/9/9b/TheOneRing.jpg</ring>
 	</img>
 	<youtube>
-		<was>kahme21</was>
+		<was>https://www.youtube.com/user/kahme21</was>
 	</youtube>
 	<custom>
 		<strike>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</strike>
+		<pending>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</pending>
 		<tiebreakers>http://www.nfl.com/standings/tiebreakingprocedures</tiebreakers>
 	</custom>
 	<rings>
@@ -35,6 +36,7 @@
 		<adv>advance</adv>
 		<sim>advance</sim>
 		<nostradamus>8ball</nostradamus>
+		<pen>pending</pen>
 	</alias>
 	<twitch>
 		<buf>gregziemski</buf>
