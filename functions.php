@@ -595,7 +595,7 @@ function sendYoutube($opt = "all") {
 		$msg = substr($msg, 0, -1);
 	}
 	elseif (key_exists($opt, $importantInfo)) {
-		$msg = $opt . ": " . $importantInfo[$opt];
+		$msg = $importantInfo[$opt];
 	}
 	sendMsg($msg);
 }
@@ -612,7 +612,7 @@ function sendCustom($opt = "all") {
 		$msg = substr($msg, 0, -1);
 	}
 	elseif (key_exists($opt, $importantInfo)) {
-		$msg = $opt . ": " . $importantInfo[$opt];
+		$msg = $importantInfo[$opt];
 	}
 	sendMsg($msg);
 }
