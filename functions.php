@@ -10,11 +10,11 @@ $teamNamesToAbbr = array(
 	"bills" => "buf", "dolphins" => "mia", "patriots" => "ne", "jets" => "nyj",
 	"ravens" => "bal", "bengals" => "cin", "browns" => "cle", "steelers" => "pit",
 	"texans" => "hou", "colts" => "ind", "jaguars" => "jax", "jac" => "jax", "titans" => "ten",
-	"broncos" => "den", "chiefs" => "kc", "raiders" => "oak", "chargers" => "sd", 
+	"broncos" => "den", "chiefs" => "kc", "raiders" => "oak", "chargers" => "lac", "sd" => "lac" 
 	"cowboys" => "dal", "giants" => "nyg", "eagles" => "phi", "redskins" => "was",
 	"bears" => "chi", "lions" => "det", "packers" => "gb", "vikings" => "min",
 	"falcons" => "atl", "panthers" => "car", "saints" => "no", "buccaneers" => "tb",
-	"cardinals" => "ari", "seahawks" => "sea", "49ers" => "sf", "rams" => "la", "stl" => "la"
+	"cardinals" => "ari", "seahawks" => "sea", "49ers" => "sf", "rams" => "lar", "stl" => "lar"
 );
 
 $positions = array(
@@ -441,6 +441,56 @@ function sendTwitchLink($options) {
 			}
 			else {
 				$msg = $twitchURL . $twitchName; 
+				if ($popout) {
+					$msg .= "/popout";
+				}
+			}
+		}
+	}
+	sendMsg($msg);
+}
+
+function sendYoutubeLink($options) {
+	$popout = false;
+	$team = "";
+	$team2 = "";
+	$origiTeam;
+	$origiTeam;
+	
+	foreach($options as $opt) {
+		if ($opt == "p" || $opt == "popout") {
+			$popout = true;
+		}
+		elseif (!$team) {
+			if ($opt == "list") {
+				$team = $opt;
+			}
+			else {
+				$team = getTeam($opt);
+				$origiTeam = $opt;
+			}
+		}
+		else {
+			$team2 = getTeam($opt);
+			$origiTeam2 = $opt;
+		}
+	}
+	
+	if {
+		if ($team == "list") {
+			foreach ($youtubeNames as $key => $value) {
+				$msg .= "$key: $value\n";
+			}
+			$msg = substr($msg,0, -1);
+		} 
+		else { 
+			$youtubeURL = "https://www.youtube.com/";
+			$youtubeName = $youtubeNames[$team];
+			if (!$youtubeName) {
+				$msg = "No youtube name listed for " . $origiTeam;
+			}
+			else {
+				$msg = $youtubeURL . $youtubeName; 
 				if ($popout) {
 					$msg .= "/popout";
 				}
