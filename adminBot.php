@@ -6,7 +6,7 @@ include('./httpful.phar');
 include('./functions.php');
 
 // this is found at http://dev.groupme.com/bots
-$bot_token = "admin bot token";
+$bot_token = "f517f87a36941b5ed5e8f78bbf";
 
 // adds admin commands 
 $isAdmin = TRUE;
