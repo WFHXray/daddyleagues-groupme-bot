@@ -9,11 +9,11 @@
 	</config>
 	<info>
 		<league>SHO</league>
-		<commish>Az, Harry, Tricky, Xray</commish>
+		<commish>Az, Tricky, Xray</commish>
 		<rules>https://docs.google.com/document/d/1tlxM-UiXKisjL826wtn1a0BQE0GaqzWAhi1XOpgxhEA/edit?usp=sharing</rules>
 		<owners>http://daddyleagues.com/shomadden/coaches</owners>
-		<trade>https://goo.gl/forms/D2l719JNlV2A8PpB2</trade>
-		<advance>9/9</advance>
+		<trade></trade>
+		<advance>48 Hours</advance>
 		<draft>TBD</draft>
 		<botdev>https://github.com/kicker10BOG/daddyleagues-groupme-bot</botdev>
 	</info>
@@ -22,7 +22,6 @@
 		<ring>http://vignette3.wikia.nocookie.net/lotr/images/9/9b/TheOneRing.jpg</ring>
 	</img>
 	<youtube>
-		<was>https://www.youtube.com/user/kahme21/videos</was>
 	</youtube>
 	<custom>
 		<strike>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</strike>
@@ -39,45 +38,45 @@
 		<pen>pending</pen>
 	</alias>
 	<twitch>
-		<buf>gregziemski</buf>
-		<mia>bigmike</mia>
-		<ne>niceonthestix181</ne>
-		<nyj>reikodamurkman</nyj>
+		<buf></buf>
+		<mia>bigrama13</mia>
+		<ne></ne>
+		<nyj>str8_hate</nyj>
 		
-		<bal>TD</bal>
-		<cin>dagnj</cin>
-		<cle>wfh_xray</cle>
-		<pit>trax631</pit>
+		<bal></bal>
+		<cin>zipisahoe</cin>
+		<cle></cle>
+		<pit>ruckdoeswork</pit>
 		
-		<hou>nick_wizz_</hou>
-		<ind>chophammer</ind>
-		<jax>winstud10</jax>
-		<ten>cfar89</ten>
+		<hou>actuallyisferg</hou>
+		<ind>championstatus83</ind>
+		<jax>general_macarth</jax>
+		<ten>campy51</ten>
 		
-		<den>sw0099</den>
-		<kc>ruckdoeswork</kc>
-		<oak>ssmondo</oak>
-		<lac>actuallyisferg</lac>
+		<den>wfh_bandit</den>
+		<kc>wfhnation</kc>
+		<oak></oak>
+		<lac>wfh_xray</lac>
 		
 		<dal>si5lsjuan</dal>
-		<nyg>zipisahoe</nyg>
-		<phi>yerrrp23</phi>
-		<was>kahme21</was>
+		<nyg>trax631</nyg>
+		<phi>straughn99</phi>
+		<was>cfar89</was>
 		
-		<chi>bigrama13</chi>
-		<det>general_macarth</det>
+		<chi>chophammer</chi>
+		<det></det>
 		<gb>harryman33</gb>
-		<min>str8_hate</min>
+		<min>winstud10</min>
 		
-		<atl>campy51</atl>
-		<car>straughn99</car>
-		<no>wfhnation</no>
-		<tb>championstatus83</tb>
+		<atl>azriel1024</atl>
+		<car>boody49</car>
+		<no>nick_wizz_</no>
+		<tb>trickynickyspazz</tb>
 		
-		<ari>azriel1024</ari>
-		<sea>trickynickyspazz</sea>
-		<sf>boody49</sf>
-		<lar>thisscottguy</lar>
+		<ari></ari>
+		<sea></sea>
+		<sf></sf>
+		<lar></lar>
 	</twitch>
 	<simscores>
 	</simscores>
