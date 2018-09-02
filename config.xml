@@ -10,9 +10,8 @@
 	<info>
 		<league>SHO</league>
 		<commish>Az, Tricky, Xray</commish>
-		<rules>https://docs.google.com/document/d/1tlxM-UiXKisjL826wtn1a0BQE0GaqzWAhi1XOpgxhEA/edit?usp=sharing</rules>
+		<rules>https://daddyleagues.com/shomadden/rules</rules>
 		<owners>http://daddyleagues.com/shomadden/coaches</owners>
-		<trade></trade>
 		<advance>48 Hours</advance>
 		<draft>TBD</draft>
 		<botdev>https://github.com/kicker10BOG/daddyleagues-groupme-bot</botdev>
@@ -24,8 +23,7 @@
 	<youtube>
 	</youtube>
 	<custom>
-		<strike>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</strike>
-		<pending>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</pending>
+		<data>https://docs.google.com/spreadsheets/d/1H83DERNFxIE6N9Sgr2bd7dbSTW48FP1_shzdRiG5pjY/edit?usp=sharing</data>
 		<tiebreakers>http://www.nfl.com/standings/tiebreakingprocedures</tiebreakers>
 	</custom>
 	<rings>
@@ -43,9 +41,9 @@
 		<ne></ne>
 		<nyj>str8_hate</nyj>
 		
-		<bal></bal>
-		<cin>zipisahoe</cin>
-		<cle></cle>
+		<bal>tygaslaya95</bal>
+		<cin></cin>
+		<cle>malenoodz</cle>
 		<pit>ruckdoeswork</pit>
 		
 		<hou>actuallyisferg</hou>
@@ -55,7 +53,7 @@
 		
 		<den>wfh_bandit</den>
 		<kc>wfhnation</kc>
-		<oak></oak>
+		<oak>westryda</oak>
 		<lac>wfh_xray</lac>
 		
 		<dal>si5lsjuan</dal>
@@ -64,7 +62,7 @@
 		<was>cfar89</was>
 		
 		<chi>chophammer</chi>
-		<det></det>
+		<det>cochiise4</det>
 		<gb>harryman33</gb>
 		<min>winstud10</min>
 		
@@ -74,9 +72,9 @@
 		<tb>trickynickyspazz</tb>
 		
 		<ari></ari>
-		<sea></sea>
+		<sea>clamhunter</sea>
 		<sf></sf>
-		<lar></lar>
+		<lar>kingcleave</lar>
 	</twitch>
 	<simscores>
 	</simscores>
